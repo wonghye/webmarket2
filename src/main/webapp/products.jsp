@@ -29,7 +29,7 @@
 			ResultSet rs = null;
 			String sql = "SELECT * FROM product";
 			pstmt = conn.prepareStatement(sql);
-			rs = pstmt.executeQuery(sql);
+			rs = pstmt.executeQuery();
 			while(rs.next()){
 		%>
 			<div class="col-md-4">
