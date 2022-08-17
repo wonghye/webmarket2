@@ -92,11 +92,8 @@ src="./resources/js/validation.js"></script>
 						</div>
 					</div>
 					<div class="form-group row">
-						<label class="col-sm-2">상태</label>
+						<label class="col-sm-2"></label>
 						<div class="col-sm-5">
-							<!-- <label><input type="radio" name="condition" value="New" checked>신규 제품</label>
-							<label><input type="radio" name="condition" value="Old">중고 제품</label>
-							<label><input type="radio" name="condition" value="Refurbished">재생 제품</label> -->
 						    <% if(rs.getString("p_condition").equals("New")){ %>
 							<label><input type="radio" name="condition" value="New" checked>신규 제품</label>
 							<label><input type="radio" name="condition" value="Old">중고 제품</label>
