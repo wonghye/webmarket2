@@ -123,7 +123,7 @@ public class ProductRepository {
 		
 		
 		/*for(int i=0; i<listOfProducts.size(); i++) {
-			Product product = listOfProducts.get(i);
+			Product product = listOfProduct1s.get(i);
 			String dbProductId = product.getProductId(); //이미 등록된 id
 			if(dbProductId.equals(productId)) { //외부에서 전달된 id와 같으면
 				productById = product; //아이디가 같은 상품을 저장
